@@ -1,5 +1,5 @@
-﻿$oldCSV = "c:\Test\OLD.csv"
-$newCSV = "c:\Test\New.csv" 
+﻿$oldCSV = "c:\Finder\import.csv"
+$newCSV = "c:\Finder\output.csv" 
 
 Import-Csv -Delimiter "|" -Path $oldCSV -Header "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21" | ForEach-Object { 
     "{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}|{9}|{10}|{11}|{12}|{13}|{14}|{15}|{16}|{17}|{18}|{19}|{20}|" -f
