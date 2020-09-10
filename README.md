@@ -24,8 +24,7 @@ Steps:
 
 7.) Import finder file using using your normal routine. 
 
-Notes: This script will confine columns to character constraints in FINDER01 table and remove any right white-space.
-Included is a sample infile in a format given by a vendor. 
+
 
 #Powershell
 
@@ -44,3 +43,6 @@ Steps:
 6.) Rename output file to FINDER01.DAT and open with text editor like Notepad++ to make sure encoding is set to UTF-8.
 
 7.) Import finder file using using your normal routine. 
+
+Notes: These scripts will confine columns to character constraints in FINDER01 table and remove any right white-space.
+Included is a sample infile in a format given by a vendor. 
